@@ -1,4 +1,14 @@
-.container div {
+.container{
+  display: flex;
+}
+.container .column {
+  flex: 1;
+
+}
+
+.area {
   height: 15px;
   width: 15px;
+  border: solid 1px black;
+
 }

@@ -1,8 +1,18 @@
-const container = document.querySelector('.container')
-const row = 10;
+const container = document.querySelector('.container');
+const choose = document.querySelector('#choose');
+const row = prompt("Enter number of blocks per row");
 const column = row;
 
+if (row > 100){
+  alert("Please enter a number below 100")
+}
+else {
+  createGrid(row, column);
+}
 
+choose.addEventListener("click", function() {
+  location.reload()
+})
 
 function createGrid (num1, num2){
   for (let i = 0; i < num1; i++){
@@ -24,4 +34,4 @@ function createGrid (num1, num2){
   }}
 }
 
-createGrid(row, column)
+

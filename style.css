@@ -1,14 +1,10 @@
+
 .container{
   display: flex;
-}
-.container .column {
-  flex: 1;
-
-}
-
-.area {
-  height: 15px;
-  width: 15px;
-  border: solid 1px black;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+  border: solid 5px black;
 
 }

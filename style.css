@@ -10,8 +10,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 598px;
-  width: 598px;
+  height: 698px;
+  width: 698px;
   border: solid 5px black;
 }
 .colors > *{

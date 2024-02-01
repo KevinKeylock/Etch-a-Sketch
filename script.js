@@ -7,8 +7,8 @@ const area = document.querySelector(".area");
 const row = prompt("Enter number of pixels per row");
 const column = row;
 
-if (row > 100){
-  alert("Please enter a number below 100")
+if (row > 75){
+  alert("Please enter a number below 75")
 }
 else {
   createGrid(row, column);
@@ -23,7 +23,7 @@ function createGrid (num1, num2){
     const area = document.createElement("div");
     //area.classList.add('area');
     div.appendChild(area);
-    const height = 600 / num1 - 2;
+    const height = 700 / num1 - 2;
     area.style.height = height + "px";
     area.style.width = height + "px";
     area.style.border = "solid 1px black";
